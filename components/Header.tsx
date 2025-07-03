@@ -7,7 +7,7 @@ const Header = () => {
       <Flex align="center" maxW="1200px" mx="auto" px={4} h="16">
         <NextLink href="/" passHref>
           <Text fontSize="xl" fontWeight="bold" color="primary" cursor="pointer">
-            Chinese Pop Culture Learning
+            Learn Chinese Through MEME 🐸
           </Text>
         </NextLink>
         

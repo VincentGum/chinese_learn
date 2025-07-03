@@ -44,7 +44,7 @@ export default function Home() {
             Learn Chinese Through Pop Culture
           </Heading>
           <Text fontSize="lg" color="gray.600" maxW="800px" mx="auto">
-            Explore popular Chinese internet memes and culture while learning practical vocabulary and grammar in a fun way!
+            Explore popular Chinese internet memes while learning practical vocabulary and grammar in a fun way!
           </Text>
         </Box>
 
