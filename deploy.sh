@@ -37,7 +37,7 @@ fi
 
 # 部署到Vercel
 echo "正在部署到Vercel..."
-vercel --prod
+npx vercel --prod
 
 echo "======================================"
 echo "  部署完成！"
