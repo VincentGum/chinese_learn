@@ -41,7 +41,7 @@ export default function Home() {
       <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={6}>
           <Heading as="h1" size="2xl" mb={4} color="gray.900">
-            Learn Chinese Through Pop Culture
+            Learn Chinese Through MEME 🐸
           </Heading>
           <Text fontSize="lg" color="gray.600" maxW="800px" mx="auto">
             Explore popular Chinese internet memes while learning practical vocabulary and grammar in a fun way!
