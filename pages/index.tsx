@@ -24,13 +24,13 @@ const topics = [
   {
     id: 4,
     title: "芭比Q (Barbecue)",
-    description: "A homophonic梗 (gěng, meme), originally referring to barbecue, used in internet slang to mean "it's over" or "something bad happened".",
+    description: "A homophonic梗 (gěng, meme), originally referring to barbecue, used in internet slang to mean \"it's over\" or \"something bad happened\".",
     imageUrl: "https://picsum.photos/id/488/600/400"
   },
   {
     id: 5,
     title: "栓Q (Thank You)",
-    description: "Derived from the homophony of English "Thank You", with a humorous or helpless tone of gratitude.",
+    description: "Derived from the homophony of English \"Thank You\", with a humorous or helpless tone of gratitude.",
     imageUrl: "https://picsum.photos/id/635/600/400"
   }
 ];
