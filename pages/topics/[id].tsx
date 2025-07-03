@@ -13,12 +13,12 @@ const topicDetails = [
       { word: "竞争", pinyin: "jìng zhēng", translation: "competition" },
       { word: "压力", pinyin: "yā lì", translation: "pressure" }
     ],
-    grammar: ""Involution" is a noun that can be used as a subject or object. For example: "Nowadays, involution in the workplace is very serious."",
+    grammar: "\"Involution\" is a noun that can be used as a subject or object. For example: \"Nowadays, involution in the workplace is very serious.\"",
     examples: [
       { chinese: "考研内卷越来越激烈，分数线逐年提高。", english: "The involution in postgraduate entrance exams is becoming more intense, with cutoff scores increasing year by year." },
       { chinese: "孩子们的教育内卷让家长们喘不过气。", english: "The educational involution of children makes parents feel overwhelmed." }
     ],
-    culture: ""Involution" originated from sociological concepts and became popular on the Chinese internet after 2020, describing a meaningless phenomenon of excessive competition. Young people use this term to express their helplessness towards the high-pressure competition in modern society."
+    culture: "\"Involution\" originated from sociological concepts and became popular on the Chinese internet after 2020, describing a meaningless phenomenon of excessive competition. Young people use this term to express their helplessness towards the high-pressure competition in modern society."
   },
   // 其他主题的详细数据可以类似添加
 ];
