@@ -13,12 +13,12 @@ const topicDetails = [
       { word: "竞争", pinyin: "jìng zhēng", translation: "competition" },
       { word: "压力", pinyin: "yā lì", translation: "pressure" }
     ],
-    grammar: "“内卷”是名词，可以用作主语或宾语。例如：“现在职场内卷很严重。”",
+    grammar: ""Involution" is a noun that can be used as a subject or object. For example: "Nowadays, involution in the workplace is very serious."",
     examples: [
-      "考研内卷越来越激烈，分数线逐年提高。",
-      "孩子们的教育内卷让家长们喘不过气。"
+      { chinese: "考研内卷越来越激烈，分数线逐年提高。", english: "The involution in postgraduate entrance exams is becoming more intense, with cutoff scores increasing year by year." },
+      { chinese: "孩子们的教育内卷让家长们喘不过气。", english: "The educational involution of children makes parents feel overwhelmed." }
     ],
-    culture: "“内卷”源自社会学概念，2020年后在中国互联网流行，描述一种无意义的过度竞争现象。年轻人用这个词来表达对现代社会高压竞争的无奈。"
+    culture: ""Involution" originated from sociological concepts and became popular on the Chinese internet after 2020, describing a meaningless phenomenon of excessive competition. Young people use this term to express their helplessness towards the high-pressure competition in modern society."
   },
   // 其他主题的详细数据可以类似添加
 ];
@@ -38,7 +38,7 @@ export default function TopicDetail() {
             leftIcon={<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>}
             variant="outline"
           >
-            返回首页
+            Back to Home
           </Button>
         </HStack>
 
@@ -54,7 +54,7 @@ export default function TopicDetail() {
         />
 
         <Box className="ios-card">
-          <Heading as="h2" size="md" mb={4} color="primary">核心词汇</Heading>
+          <Heading as="h2" size="md" mb={4} color="primary">Key Vocabulary</Heading>
           {topic.vocabulary.map((item, index) => (
             <Box key={index} mb={3}>
               <Text fontWeight="bold">{item.word} ({item.pinyin})</Text>
@@ -64,19 +64,22 @@ export default function TopicDetail() {
         </Box>
 
         <Box className="ios-card">
-          <Heading as="h2" size="md" mb={3} color="primary">语法点</Heading>
+          <Heading as="h2" size="md" mb={3} color="primary">Grammar Point</Heading>
           <Text>{topic.grammar}</Text>
         </Box>
 
         <Box className="ios-card">
-          <Heading as="h2" size="md" mb={3} color="primary">例句</Heading>
+          <Heading as="h2" size="md" mb={3} color="primary">Example Sentences</Heading>
           {topic.examples.map((example, index) => (
-            <Text key={index} mb={2}>{example}</Text>
+            <Box key={index} mb={4}>
+              <Text mb={1}>{example.chinese}</Text>
+              <Text color="gray.600">{example.english}</Text>
+            </Box>
           ))}
         </Box>
 
         <Box className="ios-card">
-          <Heading as="h2" size="md" mb={3} color="primary">文化背景</Heading>
+          <Heading as="h2" size="md" mb={3} color="primary">Cultural Background</Heading>
           <Text lineHeight="tall">{topic.culture}</Text>
         </Box>
       </VStack>

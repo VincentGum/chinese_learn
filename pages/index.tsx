@@ -6,31 +6,31 @@ const topics = [
   {
     id: 1,
     title: "内卷 (Involution)",
-    description: "描述一种过度竞争的社会现象，大家都付出更多努力却没有相应回报。",
+    description: "Describes a social phenomenon of excessive competition where everyone puts in more effort without corresponding rewards.",
     imageUrl: "https://picsum.photos/id/237/600/400"
   },
   {
     id: 2,
     title: "躺平 (Lying Flat)",
-    description: "年轻人对抗内卷的一种生活态度，选择降低欲望，减少工作和竞争。",
+    description: "A life attitude of young people against involution, choosing to lower desires and reduce work and competition.",
     imageUrl: "https://picsum.photos/id/1025/600/400"
   },
   {
     id: 3,
     title: "绝绝子 (Awesome)",
-    description: "网络流行的赞美词，表示非常好、太棒了，常用于美食、风景或优秀的人。",
+    description: "A popular internet praise word meaning very good or awesome, often used for food, scenery, or outstanding people.",
     imageUrl: "https://picsum.photos/id/325/600/400"
   },
   {
     id: 4,
     title: "芭比Q (Barbecue)",
-    description: "谐音梗，原指烧烤，网络用语中表示“完了”、“糟糕了”的意思。",
+    description: "A homophonic梗 (gěng, meme), originally referring to barbecue, used in internet slang to mean "it's over" or "something bad happened".",
     imageUrl: "https://picsum.photos/id/488/600/400"
   },
   {
     id: 5,
     title: "栓Q (Thank You)",
-    description: "源自英语“Thank You”的谐音，带有幽默或无奈的感谢意味。",
+    description: "Derived from the homophony of English "Thank You", with a humorous or helpless tone of gratitude.",
     imageUrl: "https://picsum.photos/id/635/600/400"
   }
 ];
