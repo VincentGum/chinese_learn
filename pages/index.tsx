@@ -41,10 +41,10 @@ export default function Home() {
       <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={6}>
           <Heading as="h1" size="2xl" mb={4} color="gray.900">
-            通过流行文化学中文
+            Learn Chinese Through Pop Culture
           </Heading>
           <Text fontSize="lg" color="gray.600" maxW="800px" mx="auto">
-            探索中国互联网热门梗和流行文化，在趣味中学习实用中文词汇和语法！
+            Explore popular Chinese internet memes and culture while learning practical vocabulary and grammar in a fun way!
           </Text>
         </Box>
 

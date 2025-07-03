@@ -45,7 +45,7 @@ const TopicCard = ({ id, title, description, imageUrl }: TopicCardProps) => {
           isLoading={isLoading}
           onClick={handleLearnClick}
         >
-          学习这个梗
+          Learn This Meme
         </Button>
       </NextLink>
     </Box>
