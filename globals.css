@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局样式 */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans antialiased;
+}
+
+/* iOS风格自定义组件类 */
+.ios-card {
+  @apply bg-white rounded-ios shadow-ios p-5 transition-shadow duration-300 hover:shadow-ios-hover;
+}
+
+.ios-button {
+  @apply bg-primary text-white py-3 px-6 rounded-ios font-medium transition-opacity duration-300 hover:opacity-90 active:opacity-100;
+}
+
+.ios-input {
+  @apply w-full bg-white border border-gray-300 rounded-ios py-3 px-4 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary;
+}
